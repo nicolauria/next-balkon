@@ -551,9 +551,7 @@ if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
             window.scrollTo(0, currentScrollPosition - wheelDelta);
         });
 }
-// $(document).ready(function () {
-//     initBalkon();
-//     initparallax();
-// });
-initBalkon();
-initparallax();
+$(document).ready(function () {
+    initBalkon();
+    initparallax();
+});

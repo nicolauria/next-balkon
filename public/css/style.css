@@ -18,7 +18,7 @@ body{
 	font-weight: 400;
 	font-size: 12px;
 	height:100%;
-	text-align:center;
+	text-align:center;inpu
 	background:#f4f4f4;
 	color:#000;
 	font-family: 'Questrial', sans-serif;
@@ -3342,7 +3342,7 @@ section.parallax-section  .pr-title:after {
 #contact-form {
 	max-width:750px;
 }
-#contact-form input[type="text"] , #contact-form textarea , #comment-form input[type="text"]  , #comment-form textarea{
+#contact-form input[type="text"] , #contact-form input[type="email"] , #contact-form textarea , #comment-form input[type="text"]  , #comment-form textarea{
 	float:left;
 	width: 100%;
 	background:#f4f4f4;

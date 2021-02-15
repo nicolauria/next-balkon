@@ -36,7 +36,7 @@ export default function About() {
                 <nav>
                   <ul>
                     <li>
-                      <Link href="/">Home </Link>
+                      <a href="/">Home</a>
                       {/*second level */}   
                       <ul>
                         <li><a href="index.html">Slider</a></li>

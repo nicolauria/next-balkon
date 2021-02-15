@@ -93,7 +93,7 @@ export default function Home() {
                     {/*second level end*/}
                   </li>
                   <li>
-                    <Link href="/about">About</Link>
+                    <a href="/about">About</a>
                     {/*second level end*/}
                     <ul>
                       <li><a href="about-personal.html">Personal</a></li>
@@ -102,7 +102,7 @@ export default function Home() {
                     {/*second level end*/}
                   </li>
                   <li>
-                    <a href="contact.html">Contacts </a>
+                    <a href="/contact">Contacts </a>
                   </li>
                   <li>
                     <a href="shop.html">Shop</a>
