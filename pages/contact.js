@@ -32,6 +32,7 @@ export default function() {
     
     if (res.status === 200) {
       setContactForm(BLANK_FORM)
+      setError("")
       setSuccess(data.message)
     } else {
       setError(data.message)
