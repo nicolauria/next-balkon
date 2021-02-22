@@ -9,10 +9,10 @@ export default function Meta({ title, keywords, description }) {
             <meta charSet="utf-8" />
             <link rel="icon" href="./favicon.ico" />
             <title>{title}</title>
-            <link type="text/css" rel="stylesheet" href="css/reset.css" />
-            <link type="text/css" rel="stylesheet" href="css/plugins.css" />
-            <link type="text/css" rel="stylesheet" href="css/style.css" />
-            <link type="text/css" rel="stylesheet" href="css/yourstyle.css" />
+            <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+            <link type="text/css" rel="stylesheet" href="../css/plugins.css" />
+            <link type="text/css" rel="stylesheet" href="../css/style.css" />
+            <link type="text/css" rel="stylesheet" href="../css/yourstyle.css" />
         </Head>
     )
 }
