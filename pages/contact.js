@@ -17,6 +17,7 @@ export default function() {
     setContactForm(prevState => ({ ...prevState, [name]: value }))
   }
 
+  // /api/contact request
   async function handleSubmit(event) {
     event.preventDefault();
     const res = await fetch('https://next-balkon.vercel.app/api/contact', {
