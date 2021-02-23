@@ -20,7 +20,8 @@ export default function() {
   // /api/contact request
   async function handleSubmit(event) {
     event.preventDefault();
-    const res = await fetch('https://next-balkon.vercel.app/api/contact', {
+    // https://next-balkon.vercel.app
+    const res = await fetch('/api/contact', {
       method: 'post',
       headers: {
         'Accept': 'application/json, text/plain, */*',
